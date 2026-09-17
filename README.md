@@ -1,8 +1,10 @@
-# Phloem-Coordinator
+# Coordinator
 
 Using different AI Agents for different parts of your work?
 
-Phloem-Coordinator makes those **agents collaborate autonomously**. So when one Agent writes project plan, you don't have to paste it manually into the other Agent to implement it. Phloem-Coordinator will do it for you (for free!).
+Coordinator makes those **agents collaborate autonomously**. So when one Agent writes project plan, you don't have to paste it manually into the other Agent to implement it. Coordinator will do it for you (for free!).
+
+**DISCLAIMER:** This project is not actively maintained, and is in beta. Expect bugs and vulnerabilities. Use it at your own risk.
 
 ## Features
 
@@ -11,7 +13,7 @@ Phloem-Coordinator makes those **agents collaborate autonomously**. So when one 
 3. **Secrets Management:** Securely conveys the necessary data, extracts out confidential information.
 4. **Zero-Data Retention:** Stores data during communication — deletes once the message is transferred to the destined agent.
 
-## Why Phloem-Coordinator Exists
+## Why Coordinator Exists
 
 Most agent-to-agent coordination breaks down in the same places:
 
@@ -21,16 +23,11 @@ Most agent-to-agent coordination breaks down in the same places:
 - sensitive data can leak into the wrong place if policies are implicit
 - audit trails are often incomplete or unavailable
 
-Phloem-Coordinator is meant to make those handoffs explicit, policy-driven, and machine-checkable.
+Coordinator is meant to make those handoffs explicit, policy-driven, and machine-checkable.
 
 ---
 
 # Quick Start Guide
-
-### → Hosted Version
-
-Get Phloem-Coordinator now through the [website](https://phloem-ai.netlify.app)
-
 
 ### → Local Setup 
 
